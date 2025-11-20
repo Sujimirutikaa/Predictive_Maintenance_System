@@ -1,0 +1,56 @@
+{
+  "model_name": "Random Forest",
+  "accuracy": 0.9835,
+  "precision": 0.9822694588855532,
+  "recall": 0.9835,
+  "f1_score": 0.9822006246822111,
+  "cv_score": 0.983,
+  "last_trained": "2025-06-07 12:44:35",
+  "feature_names": [
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]",
+    "Type_encoded"
+  ],
+  "feature_importance": {
+    "Air temperature [K]": 0.12326612115675457,
+    "Process temperature [K]": 0.1267170721149475,
+    "Rotational speed [rpm]": 0.23267759522672546,
+    "Torque [Nm]": 0.3306917388611376,
+    "Tool wear [min]": 0.16080421841477432,
+    "Type_encoded": 0.025843254225660518
+  },
+  "all_model_scores": {
+    "Random Forest": {
+      "accuracy": 0.9835,
+      "precision": 0.9822694588855532,
+      "recall": 0.9835,
+      "f1_score": 0.9822006246822111,
+      "cv_score": 0.983
+    },
+    "SVM": {
+      "accuracy": 0.972,
+      "precision": 0.9694576612903225,
+      "recall": 0.972,
+      "f1_score": 0.9635192373169902,
+      "cv_score": 0.9737500000000001
+    },
+    "Logistic Regression": {
+      "accuracy": 0.968,
+      "precision": 0.9595117370892019,
+      "recall": 0.968,
+      "f1_score": 0.9570285714285713,
+      "cv_score": 0.9705
+    }
+  },
+  "dataset_info": {
+    "total_samples": 10000,
+    "features": 6,
+    "target_distribution": {
+      "0": 9661,
+      "1": 339
+    }
+  }
+}
